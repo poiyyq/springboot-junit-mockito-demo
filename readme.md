@@ -12,5 +12,14 @@ so~维尼书写✍️以下demo，用来引导大家使用规范化的单元测�
 - junit
 - mockito
 
+# 参考示例
 com.winnie.biz.store.service.impl.StoreServiceImplTest 为传统单元测试类
-com.winnie.biz.store.service.impl.StoreServiceImplMockitoTest 为Mock单元测试类
+com.winnie.biz.store.service.impl.StoreServiceImplMockitoTest 为Mock单元测试类（推荐）
+
+# 核心包
+spring-boot-starter-test
+
+# 约束
+1. 每个service、dao都必须有对应的单元测试类
+2. 持续集成（CI）时，必须保证每个单元测试类通过才可以打包
+

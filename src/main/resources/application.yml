@@ -4,8 +4,8 @@ spring:
   application:
     name: springboot-junit-mockito-demo
   datasource:
-    url: jdbc:mysql://10.14.8.149:3306/testdb
+    url: jdbc:mysql://localhost:3306/testdb
     username: root
-    password: FwTo&y_nk19f
+    password: 000000
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
